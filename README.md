@@ -50,7 +50,7 @@ Some users have repos like [sindresorhus/ama](https://github.com/sindresorhus/am
 
 ## Using capitalization (or underscores) in org/user/repo names
 
-This is a minor thing, but if your organization's name and/or its projects are capitalized, it bucks the convention followed by the *vast* majority of users, projects, and orgs on GitHub, and it signifies you as a clueless outsider to the community at large [*(cough cough Microsoft cough)*](https://github.com/Microsoft).
+This is a minor thing, but if your organization's name and/or its projects are capitalized, it bucks the convention followed by the *vast* majority of users, projects, and orgs on GitHub, and it signifies you as [a clueless outsider to the community at large](https://github.com/Microsoft).
 
 There are *times* that you may want to use underscore instead of hyphens or capitalize a repo name (ie. to publish a package in an ecosystem where modules are generally capitalized), but if you do it *normally*, it has the same disquieting feeling as coming acros a project where a lot of the core filenames contain spaces. (If you don't understand what's disquieting about that, go ask a developer whose role involves using a command line.)
 
