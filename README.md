@@ -34,6 +34,12 @@ It's okay to have not realized this when you were originally creating the projec
 
 If you've got *any* sort of static web content in your repository, you should turn on GitHub Pages to host it. Otherwise, you're just making harder to browse your repo's content for no good reason.
 
+## Leaving things out of repositories
+
+Your project's logo should live (in a vector format, specifically SVG) in a repository in your organization, not in your team's private Dropbox or in the "My Pictures" directory on your art director's home PC. (I mean, it can still live there *too* if you've got it tracked in a repository: that just shouldn't be the *only* place for it). Having it versioned (with commit message metadata) makes it clear who worked on it, when it's been updated, what the update changed (GitHub offers [*three different kinds* of visual diff](https://help.github.com/articles/rendering-and-diffing-images/)!), *why* it was changed, and *anything else an interested party might want to know*.
+
+If your project requires a complicated setup / configuration to build it, that configuration should live alongside the code, with documentation about how to install it. When it comes to continuing your work, code that can't build on anyone else's machine (or *your next* machine) might as well not exist.
+
 ## Naming repos like the username / orgname is a prefix
 
 Your username / orgname doesn't move with the repo when someone forks it to their own account (ie. to submit a pull request): if you've got a repo called "foobarcorp/docs", and I go and fork that repo, it would now be called "stuartpb/docs", which makes no sense.
