@@ -20,6 +20,14 @@ File issues early, and file issues often. Discussing your idea, whether it's as 
 
 For some idea of how discussions in Issues can be a useful prefigure to committed development, see [the issues on this repo](https://github.com/stuartpb/github-mistakes/issues) for some ideas that haven't been covered in this guide yet.
 
+## Not cross-referencing issues
+
+This is [mentioned in the GitHub Guide to Mastering Issues](https://guides.github.com/features/issues/#notifications), but it's not highlighted in particularly thorough detail, so I can understand why people might miss this.
+
+However, cross-references in issues might have the *most useful return-on-investment of anything you can do on GitHub*, in terms of the ratio of how easy they are to make versus how valuable they can potentially be. You *don't even need to know the number of the issue you're cross-referencing*: once you type a `#`, *any letters you type* will search in the names of your repo's issues (and you can always pop open a new tab to search for the relevant issue in more detail, if the thing you're remembering wasn't in the title). Mentioning another issue provides a link both in the issue where the link is added, *and* in the issue that's *being linked*, meaning that someone looking for relevant details in one will know, when looking at the activity on the issue, to at least *check out* the other.
+
+It may seem like this is something you can easily go too far with, linking in irrelevant information: however, people are *very good* at being able to quickly discern whether something is or is not relevant (especially when discussion within the issue is descriptive), and it is generally easier to look over *ten* irrelevant issues than to hunt for one relevant issue you weren't aware of (or, worse, to proceed *without having taken the discussion in that prior issue into account*, which usually precipitates more work down the line). As the old adage goes, a stitch in time saves nine, and in GitHub Issues, a `#9` in time, presented to the right contributor, can save half a year waiting for a fix to arrive in a backwards-compatibility-breaking major release.
+
 ## Not creating organizations for big projects
 
 If your project is large enough to merit:
