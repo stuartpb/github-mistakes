@@ -14,7 +14,9 @@ There are some topics that those guides do gloss over, though, which is why I cr
 
 GitHub Issues are essentially a public forum where anybody with a GitHub account can participate in development discussions. This is *almost always* a good thing, and in the rare case where an issue gets unmanageably dogpiled by bikeshedders who have nothing worthwhile to say (but will say it anyway), you can lock the issue to repository participants.
 
-See [the issues on this repo](https://github.com/stuartpb/github-best-practices/issues) for topics that aren't yet covered.
+File issues early, and file issues often. Discussing your idea, whether it's as vague as "This one thing feels a little bit kinda weird", as colossal as "this shouldn't run on electronic devices at all", or as specific as "the getUsersByBirthDate function should return an array of objects instead of an array of strings", it's worth describing initially as a freeform message, even if just as a note for yourself (which you can then *reply* to yourself, which can provide a useful record of how your idea on the subject evolved).
+
+For some idea of how discussions in Issues can be a useful prefigure to committed development, see [the issues on this repo](https://github.com/stuartpb/github-mistakes/issues) for some ideas that haven't been covered in this guide yet.
 
 ## Not creating organizations for big projects
 
