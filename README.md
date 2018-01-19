@@ -47,3 +47,15 @@ If your project requires a complicated setup / configuration to build it, that c
 Your username / orgname doesn't move with the repo when someone forks it to their own account (ie. to submit a pull request): if you've got a repo called "foobar/docs", and I go and fork that repo, it would now be called "stuartpb/docs", which makes no sense. If the content in your repository is specific to you as a user/org, you should *repeat your username/orgname as a hyphenated prefix on the repository* (eg. "foobar/foobar-docs"). This is no more redundant than the way the primary project in your org is probably called something like "foobar/foobar" anyway.
 
 Some users have repos like [sindresorhus/ama](https://github.com/sindresorhus/ama), where the repo only contains guidelines about how to work with the project, and the real interaction is in issues: this is *okay*, since issues don't migrate with forks, and the "ama" repository content can reasonably map onto a new user who forks it (and be customized to apply back to them accordingly). However, if the *vast majority* of the content in the repository is specific to you (ie. if somebody forking your repository would most likely be doing so with the intent of *contributing a patch for **your** content*), you should prefix it with your name.
+
+## Using capitalization (or underscores) in org/user/repo names
+
+This is a minor thing, but if your organization's name and/or its projects are capitalized, it bucks the convention followed by the *vast* majority of users, projects, and orgs on GitHub, and it signifies you as a clueless outsider to the community at large [*(cough cough Microsoft cough)*](https://github.com/Microsoft).
+
+There are *times* that you may want to use underscore instead of hyphens or capitalize a repo name (ie. to publish a package in an ecosystem where modules are generally capitalized), but if you do it *normally*, it has the same disquieting feeling as coming acros a project where a lot of the core filenames contain spaces. (If you don't understand what's disquieting about that, go ask a developer whose role involves using a command line.)
+
+## Making developers create a "company account"
+
+I've seen some companies request that their employees participate in the company's development on GitHub using a fresh account, distinct from their personal account, that will only be used to develop things for that company.
+
+This is weird and possessive, and it's a *major* turnoff for any high-profile maintainers you might want to hire for their work on an existing project. Capitalizing the org name might make your company's GitHub activity *smell*, like a fart in an elevator: dismembering your developers' professional lives will make it *stink like a pile of corpses*. The only developers who won't feel straitjacketed by this are ones who've had no contact with the open-source world, either because they're fresh-faced out of Junior Dev School, or because they've been trapped behind a pile of binders writing COBOL for forty years.
