@@ -26,7 +26,7 @@ If your project is large enough to merit:
 - subsidiary projects / repositories
 - its own domain name and/or logo
 
-you should have created an organization for it.
+you should have created an organization for it. [Here are *just a few* of the many reasons why.](https://github.com/stuartpb/how-i-roll/blob/master/starting/apps.md#step-2-create-an-organization-on-github)
 
 It's okay to have not realized this when you were originally creating the project: migrating a repo from your personal account to an org you're a member of is a two-click operation from that repo's settings.
 
