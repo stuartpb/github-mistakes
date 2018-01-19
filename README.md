@@ -4,6 +4,8 @@ GitHub, as a development model (capably cloned by open-source projects like GitL
 
 However, there are a lot of heartbreaking instances where I see that potential being inhibited or outright squandered, so I'm going to illuminate those here, in the hopes that these mistakes may be ameliorated.
 
+To reiterate (because I know the repo name might be misleading), this is a list of common mistakes made by *users* on GitHub. For a list of mistakes made *by* GitHub, check out https://github.com/isaacs/github/issues.
+
 ## Not reading the documentation
 
 Okay, so first off: [**you should read the GitHub Guides**](https://guides.github.com/). These cover the most important things about using GitHub, and *most* of the power of GitHub is described in these guides.
